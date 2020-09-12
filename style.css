@@ -1,0 +1,199 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .headers {
+        display: grid;
+        grid-template-columns: 30rem 10rem 35rem;
+        height: 10rem;
+        line-height: 1.5rem;
+    }
+    
+    h1 {
+        grid-area: 1 / 1 / span 1 / span 1;
+        margin-top: 3rem;
+        text-align: center;
+    }
+    
+    h3 {
+        font-weight: 900;
+    }
+    
+    .header-p {
+        grid-area: 1 / 3 / span 1 / span 1;
+        margin-top: 2rem;
+    }
+    
+    .pics-1 {
+        display: grid;
+        grid-template-columns: 6rem 18rem 4rem 18rem 4rem 18rem 4rem 8rem;
+        grid-template-rows: 27rem 2rem 4rem;
+        font-size: small;
+        grid-gap: 1rem;
+    }
+    
+    .pics-2 {
+        display: grid;
+        grid-template-columns: 6rem 18rem 4rem 18rem 4rem 18rem 4rem 8rem;
+        grid-template-rows: 27rem 2rem 4rem;
+        grid-gap: 1rem;
+    }
+    
+    #pic-1 {
+        grid-area: 1 / 2 / span 1 / span 1;
+        width: 100%;
+        height: 100%;
+        border-radius: 0.3rem;
+    }
+    
+    #pic-2 {
+        grid-area: 1 / 4 / span 1 / span 1;
+        width: 100%;
+        height: 100%;
+        margin-top: 5rem;
+        border-radius: 0.3rem;
+    }
+    
+    #pic-3 {
+        grid-area: 1 / 6 / span 1 / span 1;
+        width: 100%;
+        height: 100%;
+        border-radius: 0.3rem;
+    }
+    
+    #pic-4 {
+        grid-area: 1 / 2 / span 1 / span 1;
+        width: 100%;
+        height: 100%;
+        border-radius: 0.3rem;
+    }
+    
+    #pic-5 {
+        grid-area: 1 / 4 / span 1 / span 1;
+        width: 100%;
+        height: 100%;
+        margin-top: 5rem;
+        border-radius: 0.3rem;
+    }
+    
+    .header-p,
+    #name1,
+    #name2,
+    #name3,
+    #name4,
+    #name5,
+    #name6 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        font-size: 18px;
+    }
+    
+    #title1,
+    #title2,
+    #title3,
+    #title4,
+    #title5,
+    #title6 {
+        font-family: 'PT Serif', serif;
+        font-size: small;
+    }
+    
+    span {
+        color: rgba(255, 255, 255, 0);
+    }
+    
+    #pic-6 {
+        grid-area: 1 / 6 / span 1 / span 1;
+        width: 100%;
+        height: 100%;
+        border-radius: 0.3rem;
+    }
+    
+    #name1 {
+        grid-area: 2 / 2 / span 1 / span 1;
+        position: relative;
+    }
+    
+    #name2 {
+        grid-area: 3 / 4 / span 1 / span 1;
+        position: relative;
+        padding-top: 2rem;
+    }
+    
+    #name3 {
+        grid-area: 2 / 6 / span 1 / span 1;
+        position: relative;
+    }
+    
+    #title1 {
+        grid-area: 1 / 3 / span 1 / span 1;
+        align-self: start;
+        justify-self: start;
+        text-transform: uppercase;
+        writing-mode: vertical-rl;
+    }
+    
+    #title2 {
+        grid-area: 1 / 5 / span 1 / span 1;
+        align-self: center;
+        justify-self: start;
+        text-transform: uppercase;
+        writing-mode: vertical-rl;
+    }
+    
+    #title3 {
+        grid-area: 1 / 7 / span 1 / span 1;
+        align-self: start;
+        justify-self: start;
+        text-transform: uppercase;
+        writing-mode: vertical-rl;
+    }
+    
+    #name4 {
+        grid-area: 2 / 2 / span 1 / span 1;
+        position: relative;
+        /* margin-top: -0.5rem; */
+    }
+    
+    #name5 {
+        grid-area: 2 / 4 / span 1 / span 1;
+        position: relative;
+        padding-top: 5rem;
+    }
+    
+    #name6 {
+        grid-area: 2 / 6 / span 1 / span 1;
+        position: relative;
+    }
+    
+    #title4 {
+        grid-area: 1 / 3 / span 1 / span 1;
+        align-self: start;
+        justify-self: start;
+        text-transform: uppercase;
+        writing-mode: vertical-rl;
+    }
+    
+    #title5 {
+        grid-area: 1 / 5 / span 1 / span 1;
+        align-self: center;
+        justify-self: start;
+        text-transform: uppercase;
+        writing-mode: vertical-rl;
+    }
+    
+    #title6 {
+        grid-area: 1 / 7 / span 1 / span 1;
+        align-self: start;
+        justify-self: start;
+        text-transform: uppercase;
+        writing-mode: vertical-rl;
+    }
+    
+    .footer {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 4rem 6rem;
+        grid-area: 1 / 1 / span 1 / span 3;
+    }
