@@ -11,12 +11,13 @@
     }
     
     h1 {
-        grid-area: 1 / 1 / span 1 / span 1;
+        
         margin-top: 3rem;
         text-align: center;
     }
     
     h3 {
+        grid-area: 1 / 2 / span 1 / span 1;
         font-weight: 900;
     }
     
@@ -197,3 +198,217 @@
         grid-template-rows: 4rem 6rem;
         grid-area: 1 / 1 / span 1 / span 3;
     }
+    @media (max-width: 600px){
+        
+        
+        .headers {
+            display: grid;
+            grid-template-columns: 16rem ;
+            grid-template-rows: 3rem 6rem;
+            line-height: 1.5rem;
+            grid-gap: 0rem;
+            margin: 5px;
+            
+        }
+        
+        h1 {
+            grid-area: 1 / 1 / span 1 / span 1;
+            text-align: center;
+            font-size: 26px;
+            margin: 0.5rem;
+        }
+        
+        .header-p {
+            grid-area: 2 / 1 / span 1 / span 1;
+            text-align: center;
+            font-size: 12px;
+            margin: 0.5rem;
+            
+        }
+
+        .pics-1 {
+            display: grid;
+            grid-template-columns:  18rem ;
+            grid-template-rows: 27rem 3rem 3rem 27rem 3rem 3rem 27rem 3rem 3rem;
+            font-size: small;
+            grid-gap: 1rem;
+        }
+
+        #pic-1 {
+            grid-area: 1 / 1 / span 1 / span 1;
+            width: 100%;
+            height: 100%;
+            border-radius: 0.3rem;
+            margin: 0.5rem;
+        }
+
+
+        #name1 {
+            grid-area: 2 / 1 / span 1 / span 1;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 900;
+            font-size: 18px;
+        }
+        
+        #title1
+         {
+            grid-area: 3 / 1 / span 1 / span 1;
+            font-family: 'PT Serif', serif;
+            font-size: small;
+            align-self: start;
+            justify-self: start;
+            text-transform: uppercase;
+            writing-mode: horizontal-tb;
+            
+        }
+
+        #pic-2 {
+            grid-area: 4 / 1 / span 1 / span 1;
+            width: 100%;
+            height: 100%;
+            border-radius: 0.3rem;
+            margin-top: 0rem;
+        }
+
+
+        #name2 {
+            grid-area: 5 / 1 / span 1 / span 1;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 900;
+            font-size: 18px;
+        }
+        
+        #title2
+         {
+            grid-area: 6 / 1 / span 1 / span 1;
+            font-family: 'PT Serif', serif;
+            font-size: small;
+            align-self: start;
+            justify-self: start;
+            text-transform: uppercase;
+            writing-mode: horizontal-tb;
+            
+        }
+        #pic-3 {
+            grid-area: 7 / 1 / span 1 / span 1;
+            width: 100%;
+            height: 100%;
+            border-radius: 0.3rem;
+        }
+
+
+        #name3 {
+            grid-area: 8 / 1 / span 1 / span 1;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 900;
+            font-size: 18px;
+        }
+        
+        #title3
+         {
+            grid-area: 9 / 1 / span 1 / span 1;
+            font-family: 'PT Serif', serif;
+            font-size: small;
+            align-self: start;
+            justify-self: start;
+            text-transform: uppercase;
+            writing-mode: horizontal-tb;
+            
+        }
+
+        
+
+    
+    
+    .pics-2 {
+        display: grid;
+        grid-template-columns:  18rem ;
+        grid-template-rows: 27rem 3rem 3rem 27rem 3rem 3rem 27rem 3rem 3rem;
+        font-size: small;
+        grid-gap: 1rem;
+    }
+
+    #pic-4 {
+        grid-area: 1 / 1 / span 1 / span 1;
+        width: 100%;
+        height: 100%;
+        border-radius: 0.3rem;
+    }
+
+
+    #name4 {
+        grid-area: 2 / 1 / span 1 / span 1;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        font-size: 18px;
+    }
+    
+    #title4
+     {
+        grid-area: 3 / 1 / span 1 / span 1;
+        font-family: 'PT Serif', serif;
+        font-size: small;
+        align-self: start;
+        justify-self: start;
+        text-transform: uppercase;
+        writing-mode: horizontal-tb;
+        
+    }
+
+    #pic-5 {
+        grid-area: 4 / 1 / span 1 / span 1;
+        width: 100%;
+        height: 100%;
+        border-radius: 0.3rem;
+        margin-top: 0rem;
+    }
+
+
+    #name5 {
+        grid-area: 5 / 1 / span 1 / span 1;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        font-size: 18px;
+    }
+    
+    #title5
+     {
+        grid-area: 6 / 1 / span 1 / span 1;
+        font-family: 'PT Serif', serif;
+        font-size: small;
+        align-self: start;
+        justify-self: start;
+        text-transform: uppercase;
+        writing-mode: horizontal-tb;
+        
+    }
+    #pic-6 {
+        grid-area: 7 / 1 / span 1 / span 1;
+        width: 100%;
+        height: 100%;
+        border-radius: 0.3rem;
+    }
+
+
+    #name6 {
+        grid-area: 8 / 1 / span 1 / span 1;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        font-size: 18px;
+    }
+    
+    #title6
+     {
+        grid-area: 9 / 1 / span 1 / span 1;
+        font-family: 'PT Serif', serif;
+        font-size: small;
+        align-self: start;
+        justify-self: start;
+        text-transform: uppercase;
+        writing-mode: horizontal-tb;
+        
+    }
+
+    
+
+}
